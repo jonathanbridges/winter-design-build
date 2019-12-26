@@ -11,12 +11,12 @@ import Portfolio from './components/portfolio';
 import About from './components/about';
 import Contact from './components/contact';
 import Footer from './components/footer';
-
-import './App.scss';
+import ScrollToTop from './components/scrolltotop';
 
 function App() {
   return (
-    <Router>
+    <Router onUpdate={() => window.scrollTo(0,0)}>
+      <ScrollToTop />
       <div className="App">
         <Header />
         <Switch>
