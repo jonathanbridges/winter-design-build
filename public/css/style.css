@@ -275,7 +275,8 @@ h3{
 .boxed-btn:hover{
     background:#131313;
     color:#fff !important;
-    border:1px solid #131313
+    border:1px solid #131313;
+    cursor: pointer;
 }
 .boxed-btn:focus{
     outline:none
@@ -1627,6 +1628,12 @@ h3{
 .contact-info__icon{
     margin-right:20px
 }
+@media (max-width: 991px) {
+    .contact-info__icon {
+        display: none;
+    }
+}
+
 .contact-info__icon i,.contact-info__icon span{
     color:#8f9195;
     font-size:27px

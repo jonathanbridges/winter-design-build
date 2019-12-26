@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Header extends React.Component {
   render() {
@@ -20,36 +21,36 @@ export default class Header extends React.Component {
                     <nav>
                       <ul id="navigation">
                         <li>
-                          <a className="active" href="index.html">Home</a>
+                          <Link to="/" className="active">Home</Link>
                         </li>
                         <li>
-                          <a href="#portfolio">Portfolio <i className="ti-angle-down" /></a>
+                          <Link to="/portfolio">Portfolio <i className="ti-angle-down" /></Link>
                           <ul className="submenu">
                             <li>
-                              <a href="project-details.html">Woodworking</a>
+                              <Link to="/woodworking">Woodworking</Link>
                             </li>
                             <li>
-                              <a href="elements.html">Cabinetry</a>
+                              <Link to="/cabinetry">Cabinetry</Link>
                             </li>
                             <li>
-                              <a href="elements.html">Trim Cabinetry</a>
+                              <Link to="/trim-cabinetry">Trim Cabinetry</Link>
                             </li>
                             <li>
-                              <a href="elements.html">Renovation</a>
+                              <Link to="/renovation">Renovation</Link>
                             </li>
                             <li>
-                              <a href="elements.html">Design</a>
+                              <Link to="/design">Design</Link>
                             </li>
                             <li>
-                              <a href="elements.html">Art</a>
+                              <Link to="/art">Art</Link>
                             </li>                                                                                                                
                           </ul>
                         </li>
                         <li>
-                          <a href="about.html">About</a>
+                          <Link to="/about">About</Link>
                         </li>
                         <li>
-                          <a href="contact.html">Contact</a>
+                          <Link to="/contact">Contact</Link>
                         </li>
                       </ul>
                     </nav>
@@ -57,9 +58,7 @@ export default class Header extends React.Component {
                 </div>
                 <div className="col-xl-3 col-lg-3 d-none d-lg-block">
                   <div className="get_in_tauch">
-                    <a href="#contact" className="boxed-btn">
-                      GET IN TOUCH
-                    </a>
+                    <Link to="/contact" className="boxed-btn">GET IN TOUCH</Link>
                   </div>
                 </div>
                 <div className="col-12">
