@@ -10,18 +10,17 @@ export default class About extends React.Component {
             <div className="col-xl-6 col-md-6">
               <div className="about_thumb">
                 <img src="img/about/1.png" alt="" />
-                <div className="exprience">
+                {/* <div className="exprience">
                   <h1>25</h1>
                   <span>Years of Experience</span>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
               <div className="about_info">
                 <div className="section_title">
-                  <span className="sub_heading">About Us</span>
-                  <h3>Architechtural plan <br />
-                    design and build</h3>
+                  <span className="sub_heading">About Me</span>
+                  <h3>Nicholas Winter</h3>
                   <div className="seperator" />
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
