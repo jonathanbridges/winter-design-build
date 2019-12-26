@@ -49,7 +49,10 @@
 .slicknav_nav {
   clear: both; }
   .slicknav_nav ul {
-    display: block; }
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
   .slicknav_nav li {
     display: block; }
   .slicknav_nav .slicknav_arrow {
@@ -98,8 +101,7 @@
   .slicknav_nav ul {
     list-style: none;
     overflow: hidden;
-    padding: 0;
-    margin: 0 0 0 20px; }
+    padding: 0;}
   .slicknav_nav .slicknav_row {
     padding: 5px 10px;
     margin: 2px 5px; }

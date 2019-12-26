@@ -20,44 +20,33 @@ export default class Header extends React.Component {
                     <nav>
                       <ul id="navigation">
                         <li>
-                          <a className="active" href="index.html">
-                            home
-                          </a>
+                          <a className="active" href="index.html">Home</a>
+                        </li>
+                        <li>
+                          <a href="#portfolio">Portfolio <i className="ti-angle-down" /></a>
+                          <ul className="submenu">
+                            <li>
+                              <a href="project-details.html">Woodworking</a>
+                            </li>
+                            <li>
+                              <a href="elements.html">Cabinetry</a>
+                            </li>
+                            <li>
+                              <a href="elements.html">Trim Cabinetry</a>
+                            </li>
+                            <li>
+                              <a href="elements.html">Renovation</a>
+                            </li>
+                            <li>
+                              <a href="elements.html">Design</a>
+                            </li>
+                            <li>
+                              <a href="elements.html">Art</a>
+                            </li>                                                                                                                
+                          </ul>
                         </li>
                         <li>
                           <a href="about.html">About</a>
-                        </li>
-                        <li>
-                          <a href="project.html">Projects</a>
-                        </li>
-                        <li>
-                          <a href="service.html">Services</a>
-                        </li>
-                        <li>
-                          <a href="#blog">
-                            blog <i className="ti-angle-down" />
-                          </a>
-                          <ul className="submenu">
-                            <li>
-                              <a href="blog.html">blog</a>
-                            </li>
-                            <li>
-                              <a href="single-blog.html">single-blog</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#pages">
-                            pages <i className="ti-angle-down" />
-                          </a>
-                          <ul className="submenu">
-                            <li>
-                              <a href="project-details.html">project-details</a>
-                            </li>
-                            <li>
-                              <a href="elements.html">elements</a>
-                            </li>
-                          </ul>
                         </li>
                         <li>
                           <a href="contact.html">Contact</a>
