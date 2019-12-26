@@ -23,7 +23,6 @@ function App() {
           <Route exact path="/">
             <Slider />
             <Portfolio />
-            <div className="seperator" />
             <Contact />
           </Route>
           <Route path="/about">

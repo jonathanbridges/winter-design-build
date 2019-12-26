@@ -72,7 +72,7 @@ export default class Contact extends React.Component {
                 </div>
               </form>
             </div>
-            <div className="col-lg-3 offset-lg-1">
+            <div className="col-lg-4">
               <div className="media contact-info">
                 <span className="contact-info__icon"><i className="ti-home" /></span>
                 <div className="media-body">
@@ -91,7 +91,7 @@ export default class Contact extends React.Component {
                 <span className="contact-info__icon"><i className="ti-email" /></span>
                 <div className="media-body">
                   <h3>nicholasfarnhamwinter@gmail.com</h3>
-                  <p>Send us your query anytime!</p>
+                  <p>Shoot me an email anytime!</p>
                 </div>
               </div>
             </div>

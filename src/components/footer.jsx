@@ -28,10 +28,10 @@ export default class Footer extends React.Component {
                   </ul>
                 </div>
               </div> */}
-              <div className="col-xl-9 col-12 col-md-8">
+              <div className="col-xl-10 col-12 col-md-8">
                 <div className="footer_header d-flex justify-content-between align-items-center">
                   <div className="footer_header_left">
-                    <h3>Do youn have any project or Query?</h3>
+                    <h3>Do you have a project you need done?</h3>
                     <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                   </div>
                   <div className="footer_btn">

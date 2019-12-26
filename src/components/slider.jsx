@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Slider extends React.Component {
   render() {
@@ -12,7 +13,7 @@ export default class Slider extends React.Component {
                   <div className="slider_text text-center">
                     <h3>Winter Design Build</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor</p>
-                    <a href="#portfolio" className="boxed-btn2">See Our Portfolio</a>
+                    <Link to="/portfolio" className="boxed-btn2">See My Portfolio</Link>
                   </div>
                 </div>
               </div>

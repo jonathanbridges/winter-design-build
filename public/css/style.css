@@ -239,7 +239,7 @@ h3{
     }
 }
 .mb-80{
-    margin-bottom:80px
+    margin-bottom:30px
 }
 @media (max-width: 767px){
     .mb-80{
@@ -251,7 +251,7 @@ h3{
 }
 @media (max-width: 767px){
     .mb-60{
-        margin-bottom:30px
+        margin-bottom:0;
     }
 }
 .mb-20{
@@ -303,6 +303,9 @@ h3{
 }
 .boxed-btn2:focus{
     outline:none
+}
+.boxed-btn2:visited{
+    color:white;
 }
 .section_title .sub_heading{
     color:#c9c9c9;
@@ -911,8 +914,8 @@ h3{
     top:-2px
 }
 .lastest_project{
-    padding-top:100px;
-    padding-bottom:120px
+    padding-top:50px;
+    padding-bottom:0;
 }
 @media (max-width: 767px){
     .lastest_project{
@@ -1634,7 +1637,8 @@ h3{
     margin-bottom:25px
 }
 .contact-info__icon{
-    margin-right:20px
+    margin-right:20px;
+    margin-top: 6px;
 }
 @media (max-width: 991px) {
     .contact-info__icon {
@@ -1665,6 +1669,9 @@ h3{
 }
 .form-contact label{
     font-size:14px
+}
+.form-contact textarea{
+    padding-top: 18px;
 }
 .form-contact .form-group{
     margin-bottom:30px
