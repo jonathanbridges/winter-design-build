@@ -48,10 +48,17 @@ export default class Art extends React.Component {
         {/* details_slider_area_start */}
         <div className="details_slider_area">
           <OwlCarousel className="details_active owl-carousel" options={options}>
-            <div className="single_details details_bg_1"></div>
-            <div className="single_details details_bg_1"></div>
-            <div className="single_details details_bg_1"></div>
-            <div className="single_details details_bg_1"></div>
+            <div className="single_details wainscotting_bg_1"></div>
+            <div className="single_details wainscotting_bg_2"></div>
+            <div className="single_details wainscotting_bg_3"></div>
+            <div className="single_details wainscotting_bg_4"></div>
+            <div className="single_details wainscotting_bg_5"></div>
+            <div className="single_details wainscotting_bg_6"></div>
+            <div className="single_details wainscotting_bg_7"></div>
+            <div className="single_details wainscotting_bg_8"></div>
+            <div className="single_details wainscotting_bg_9"></div>
+            <div className="single_details wainscotting_bg_10"></div>
+            <div className="single_details wainscotting_bg_11"></div>
           </OwlCarousel>
         </div>
         {/* details_slider_area_end */}

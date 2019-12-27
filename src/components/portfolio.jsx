@@ -119,8 +119,8 @@ export default class Portfolio extends React.Component {
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
               <div className="section_title">
-                <span className="sub_heading2">Ash and Steel Kitchen Island</span>
-                <h4>Design</h4>
+                <span className="sub_heading2">Burlington, VT</span>
+                <h4>Ash and Steel Kitchen Island</h4>
                 <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua
             quis ipsum suspendisse.</p>
                 <Link to="/ash-and-steel-kitchen-island" className="boxed-btn">View More</Link>

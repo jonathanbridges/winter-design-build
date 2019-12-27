@@ -1557,15 +1557,159 @@ h3{
     background:#131313;
     border:1px solid transparent
 }
-.details_bg_1{
-    background-image:url(../img/banner/details_banner.png);
-    background-size: cover;
-    max-height: 500px;
+/* Trim Page */
+.trim_bg_1{
+    background-image:url(../img/trim_and_mantle/1.jpeg);
+
 }
+.trim_bg_2{
+    background-image:url(../img/trim_and_mantle/2.jpeg);
+}
+.trim_bg_3{
+    background-image:url(../img/trim_and_mantle/3.jpeg);
+}
+.trim_bg_4{
+    background-image:url(../img/trim_and_mantle/4.jpeg);
+}
+.trim_bg_5{
+    background-image:url(../img/trim_and_mantle/5.jpg);
+}
+/* Reclaimed Page */
+.reclaimed_bg_1{
+    background-image:url(../img/reclaimed_fir_accent_wall/1.jpeg);
+}
+.reclaimed_bg_2{
+    background-image:url(../img/reclaimed_fir_accent_wall/2.jpeg);
+}
+.reclaimed_bg_3{
+    background-image:url(../img/reclaimed_fir_accent_wall/3.jpeg);
+}
+.reclaimed_bg_4{
+    background-image:url(../img/reclaimed_fir_accent_wall/4.jpeg);
+}
+.reclaimed_bg_5{
+    background-image:url(../img/reclaimed_fir_accent_wall/5.jpeg);
+}
+/* Wedding Page */
+.wedding_bg_1{
+    background-image:url(../img/wedding_arbor/arbor_landscape.jpg);
+}
+.wedding_bg_2{
+    background-image:url(../img/wedding_arbor/arbor_portrait.jpg);
+}
+/* Built-in Page */
+.builtin_bg_1{
+    background-image:url(../img/built_in_closet/1.jpeg);
+}
+.builtin_bg_2{
+    background-image:url(../img/built_in_closet/2.jpeg);
+}
+.builtin_bg_3{
+    background-image:url(../img/built_in_closet/3.jpeg);
+}
+.builtin_bg_4{
+    background-image:url(../img/built_in_closet/4.jpeg);
+}
+.builtin_bg_5{
+    background-image:url(../img/built_in_closet/5.jpg);
+}
+.builtin_bg_6{
+    background-image:url(../img/built_in_closet/6.jpg);
+}
+.builtin_bg_7{
+    background-image:url(../img/built_in_closet/7.jpg);
+}
+.builtin_bg_8{
+    background-image:url(../img/built_in_closet/8.jpg);
+}
+/* Bath Page */
+.bath_bg_1{
+    background-image:url(../img/bath_vanity_and_tile/1.jpeg);
+}
+.bath_bg_2{
+    background-image:url(../img/bath_vanity_and_tile/2.jpeg);
+}
+.bath_bg_3{
+    background-image:url(../img/bath_vanity_and_tile/3.jpeg);
+}
+.bath_bg_4{
+    background-image:url(../img/bath_vanity_and_tile/4.jpeg);
+}
+.bath_bg_5{
+    background-image:url(../img/bath_vanity_and_tile/5.jpg);
+}
+.bath_bg_6_before{
+    background-image:url(../img/bath_vanity_and_tile/6_before.jpg);
+}
+.bath_bg_6_after{
+    background-image:url(../img/bath_vanity_and_tile/6_after.jpeg);
+}
+.bath_bg_7_before{
+    background-image:url(../img/bath_vanity_and_tile/7_before.jpg);
+}
+.bath_bg_7_after{
+    background-image:url(../img/bath_vanity_and_tile/7_after.jpeg);
+}
+/* Wainscotting Page */
+.wainscotting_bg_1{
+    background-image:url(../img/wainscotting_and_floor/1.jpeg);
+}
+.wainscotting_bg_2{
+    background-image:url(../img/wainscotting_and_floor/2.jpeg);
+}
+.wainscotting_bg_3{
+    background-image:url(../img/wainscotting_and_floor/3.jpg);
+}
+.wainscotting_bg_4{
+    background-image:url(../img/wainscotting_and_floor/4.jpg);
+}
+.wainscotting_bg_5{
+    background-image:url(../img/wainscotting_and_floor/5.jpg);
+}
+.wainscotting_bg_6{
+    background-image:url(../img/wainscotting_and_floor/6.jpg);
+}
+.wainscotting_bg_7{
+    background-image:url(../img/wainscotting_and_floor/7.jpg);
+}
+.wainscotting_bg_8{
+    background-image:url(../img/wainscotting_and_floor/8.jpg);
+}
+.wainscotting_bg_9{
+    background-image:url(../img/wainscotting_and_floor/9.jpg);
+}
+.wainscotting_bg_10{
+    background-image:url(../img/wainscotting_and_floor/10.jpg);
+}
+.wainscotting_bg_11{
+    background-image:url(../img/wainscotting_and_floor/11.png);
+}
+/* Ash Page */
+.ash_bg_1{
+    background-image:url(../img/ash_and_steel_kitchen_island/1.jpg);
+}
+.ash_bg_2{
+    background-image:url(../img/ash_and_steel_kitchen_island/2.jpg);
+}
+.ash_bg_3{
+    background-image:url(../img/ash_and_steel_kitchen_island/3.jpg);
+}
+.ash_bg_4{
+    background-image:url(../img/ash_and_steel_kitchen_island/4.jpg);
+}
+.ash_bg_5{
+    background-image:url(../img/ash_and_steel_kitchen_island/5.png);
+}
+.ash_bg_6{
+    background-image:url(../img/ash_and_steel_kitchen_island/6.png);
+}
+
 .details_slider_area .single_details{
     height:800px;
-    background-size:cover;
-    background-position:center center
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-color: black;
 }
 @media (max-width: 767px){
     .details_slider_area .single_details{

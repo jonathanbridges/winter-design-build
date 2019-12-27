@@ -48,10 +48,8 @@ export default class TrimCabinetry extends React.Component {
         {/* details_slider_area_start */}
         <div className="details_slider_area">
           <OwlCarousel className="details_active owl-carousel" options={options}>
-            <div className="single_details details_bg_1"></div>
-            <div className="single_details details_bg_1"></div>
-            <div className="single_details details_bg_1"></div>
-            <div className="single_details details_bg_1"></div>
+            <div className="single_details wedding_bg_1"></div>
+            <div className="single_details wedding_bg_2"></div>
           </OwlCarousel>
         </div>
         {/* details_slider_area_end */}
