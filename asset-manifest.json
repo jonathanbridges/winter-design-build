@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/github.io/winter-design-build/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/github.io/winter-design-build/static/js/main.be51a10d.chunk.js",
-    "main.js.map": "/github.io/winter-design-build/static/js/main.be51a10d.chunk.js.map",
-    "runtime-main.js": "/github.io/winter-design-build/static/js/runtime-main.2c655486.js",
-    "runtime-main.js.map": "/github.io/winter-design-build/static/js/runtime-main.2c655486.js.map",
-    "static/js/2.6a684062.chunk.js": "/github.io/winter-design-build/static/js/2.6a684062.chunk.js",
-    "static/js/2.6a684062.chunk.js.map": "/github.io/winter-design-build/static/js/2.6a684062.chunk.js.map",
-    "index.html": "/github.io/winter-design-build/index.html",
-    "precache-manifest.f3f7998decb901c530c2e9f9fe69c145.js": "/github.io/winter-design-build/precache-manifest.f3f7998decb901c530c2e9f9fe69c145.js",
-    "service-worker.js": "/github.io/winter-design-build/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/github.io/winter-design-build/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.6a684062.chunk.js.LICENSE": "/github.io/winter-design-build/static/js/2.6a684062.chunk.js.LICENSE"
+    "main.css": "/winter-design-build/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/winter-design-build/static/js/main.d5e017de.chunk.js",
+    "main.js.map": "/winter-design-build/static/js/main.d5e017de.chunk.js.map",
+    "runtime-main.js": "/winter-design-build/static/js/runtime-main.3a40695c.js",
+    "runtime-main.js.map": "/winter-design-build/static/js/runtime-main.3a40695c.js.map",
+    "static/js/2.6a684062.chunk.js": "/winter-design-build/static/js/2.6a684062.chunk.js",
+    "static/js/2.6a684062.chunk.js.map": "/winter-design-build/static/js/2.6a684062.chunk.js.map",
+    "index.html": "/winter-design-build/index.html",
+    "precache-manifest.878b45399544bbc1df6cb66a7ef9397e.js": "/winter-design-build/precache-manifest.878b45399544bbc1df6cb66a7ef9397e.js",
+    "service-worker.js": "/winter-design-build/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/winter-design-build/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.6a684062.chunk.js.LICENSE": "/winter-design-build/static/js/2.6a684062.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c655486.js",
+    "static/js/runtime-main.3a40695c.js",
     "static/js/2.6a684062.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.be51a10d.chunk.js"
+    "static/js/main.d5e017de.chunk.js"
   ]
 }
