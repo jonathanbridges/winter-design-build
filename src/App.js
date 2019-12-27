@@ -13,6 +13,8 @@ import Contact from './components/contact';
 import Footer from './components/footer';
 import ScrollToTop from './components/scrolltotop';
 
+import Woodworking from './components/portfolio_details/woodworking';
+
 function App() {
   return (
     <Router onUpdate={() => window.scrollTo(0,0)}>
@@ -33,6 +35,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/woodworking">
+            <Woodworking />
           </Route>
         </Switch>
         <Footer />

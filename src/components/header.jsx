@@ -27,7 +27,7 @@ export default class Header extends React.Component {
                           <Link to="/portfolio">Portfolio <i className="ti-angle-down" /></Link>
                           <ul className="submenu">
                             <li>
-                              <Link to="/woodworking">Woodworking</Link>
+                              <a href="/woodworking">Woodworking</a>
                             </li>
                             <li>
                               <Link to="/cabinetry">Cabinetry</Link>

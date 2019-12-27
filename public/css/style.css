@@ -1555,7 +1555,9 @@ h3{
     border:1px solid transparent
 }
 .details_bg_1{
-    background-image:url(../img/banner/details_banner.png)
+    background-image:url(../img/banner/details_banner.png);
+    background-size: cover;
+    max-height: 500px;
 }
 .details_slider_area .single_details{
     height:800px;
@@ -1599,16 +1601,16 @@ h3{
 }
 .details_slider_area .owl-carousel .owl-nav div.owl-next{
     left:auto;
-    right:150px
-}
-.details_slider_area .owl-carousel .owl-nav div.owl-next{
-    left:auto;
-    right:150px
+    right:5%;
 }
 .details_slider_area .owl-carousel .owl-nav div.owl-next i{
     position:relative;
     right:0px;
     top:0px
+}
+.details_slider_area .owl-carousel .owl-nav div.owl-prev{
+    left:5%;
+    right:auto
 }
 .details_slider_area .owl-carousel .owl-nav div.owl-prev i{
     position:relative;

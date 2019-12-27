@@ -36,7 +36,7 @@ $('.slider_active').owlCarousel({
 items:1,
 autoplay:true,
 navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-  nav:false,
+  nav:true,
 dots:false,
 autoplayHoverPause: true,
 autoplaySpeed: 800,
@@ -51,6 +51,12 @@ autoplaySpeed: 800,
       },
       992:{
           items:1
+      },
+      1200: {
+        items: 1,
+      },
+      1500: {
+        items: 1
       }
   }
 });
@@ -250,20 +256,17 @@ dots:false,
   responsive:{
       0:{
           items:1,
-          nav:false
+          nav:true
 
       },
       767:{
           items:1,
-          nav:false
+          nav:true
       },
       992:{
           items:1,
-          nav:false
+          nav:true
       },
-      1200:{
-          items:1,
-      }
   }
 });
 
