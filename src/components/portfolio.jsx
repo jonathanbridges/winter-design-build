@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Portfolio extends React.Component {
   render() {
@@ -26,7 +27,7 @@ export default class Portfolio extends React.Component {
                 <h4>Woodworking</h4>
                 <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua
             quis ipsum suspendisse.</p>
-                <a href="#woodworking" className="boxed-btn">View More</a>
+                <Link to="/woodworking" className="boxed-btn">View More</Link>
               </div>
             </div>
           </div>
@@ -37,7 +38,7 @@ export default class Portfolio extends React.Component {
                 <h4>Cabinetry</h4>
                 <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua
             quis ipsum suspendisse.</p>
-                <a href="#cabinetry" className="boxed-btn">View More</a>
+                <Link to="/cabinetry" className="boxed-btn">View More</Link>
               </div>
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
@@ -58,7 +59,7 @@ export default class Portfolio extends React.Component {
                 <h4>Trim Cabinetry</h4>
                 <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua
             quis ipsum suspendisse.</p>
-                <a href="#trim_cabinetry" className="boxed-btn">View More</a>
+                <Link to="/trim-cabinetry" className="boxed-btn">View More</Link>
               </div>
             </div>
           </div>
@@ -69,7 +70,7 @@ export default class Portfolio extends React.Component {
                 <h4>Renovation</h4>
                 <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua
             quis ipsum suspendisse.</p>
-                <a href="#renovation" className="boxed-btn">View More</a>
+                <Link to="/renovation" className="boxed-btn">View More</Link>
               </div>
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
@@ -90,7 +91,7 @@ export default class Portfolio extends React.Component {
                 <h4>Design</h4>
                 <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua
             quis ipsum suspendisse.</p>
-                <a href="#design" className="boxed-btn">View More</a>
+                <Link to="/design" className="boxed-btn">View More</Link>
               </div>
             </div>
           </div>
@@ -101,7 +102,7 @@ export default class Portfolio extends React.Component {
                 <h4>Art</h4>
                 <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua
             quis ipsum suspendisse.</p>
-                <a href="#art" className="boxed-btn">View More</a>
+                <Link to="/art" className="boxed-btn">View More</Link>
               </div>
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">

@@ -14,6 +14,11 @@ import Footer from './components/footer';
 import ScrollToTop from './components/scrolltotop';
 
 import Woodworking from './components/portfolio_details/woodworking';
+import Cabinetry from './components/portfolio_details/cabinetry';
+import TrimCabinetry from './components/portfolio_details/trim_cabinetry';
+import Renovation from './components/portfolio_details/renovation';
+import Design from './components/portfolio_details/design';
+import Art from './components/portfolio_details/art';
 
 function App() {
   return (
@@ -38,6 +43,21 @@ function App() {
           </Route>
           <Route path="/woodworking">
             <Woodworking />
+          </Route>
+          <Route path="/cabinetry">
+            <Cabinetry />
+          </Route>
+          <Route path="/trim-cabinetry">
+            <TrimCabinetry />
+          </Route>
+          <Route path="/renovation">
+            <Renovation />
+          </Route>
+          <Route path="/design">
+            <Design />
+          </Route>
+          <Route path="/art">
+            <Art />
           </Route>
         </Switch>
         <Footer />
