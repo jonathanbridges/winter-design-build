@@ -1,6 +1,6 @@
 {
-  "short_name": "Winter Design Build App",
-  "name": "Winter Design Build",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
