@@ -641,8 +641,11 @@ h3{
     width:180px;
     padding:18px
 }
+.hero_bg_1{
+    background-image:url(../img/wedding_arbor/arbor_landscape.jpg)
+}
 .slider_bg_1{
-    background-image:url(../img/banner/1.png)
+    background-image:url(../img/wedding_arbor/arbor_landscape.jpg)
 }
 .slider_area .single_slider{
     height:800px;

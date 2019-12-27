@@ -6,7 +6,7 @@ export default class Slider extends React.Component {
     return (
       < div className = "slider_area" >
         {/* <div className="slider_active owl-carousel"> */}
-          <div className="single_slider overlay2 d-flex align-items-center justify-content-center slider_bg_1">
+          <div className="single_slider overlay2 d-flex align-items-center justify-content-center hero_bg_1">
             <div className="container">
               <div className="row">
                 <div className="col-xl-12">

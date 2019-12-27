@@ -43,7 +43,10 @@ export default class Header extends React.Component {
                             </li>
                             <li>
                               <Link to="/art">Art</Link>
-                            </li>                                                                                                                
+                            </li>         
+                            <li>
+                              <Link to="/ash-and-steel-kitchen-island">Ash and Steel Kitchen Island</Link>
+                            </li>                                                                                                             
                           </ul>
                         </li>
                         <li>

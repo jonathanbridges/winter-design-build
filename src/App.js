@@ -19,6 +19,7 @@ import TrimCabinetry from './components/portfolio_details/trim_cabinetry';
 import Renovation from './components/portfolio_details/renovation';
 import Design from './components/portfolio_details/design';
 import Art from './components/portfolio_details/art';
+import AshAndSteelKitchenIsland from './components/portfolio_details/ash_and_steel_kitchen_island';
 
 function App() {
   return (
@@ -58,6 +59,9 @@ function App() {
           </Route>
           <Route path="/art">
             <Art />
+          </Route>
+          <Route path="/ash-and-steel-kitchen-island">
+            <AshAndSteelKitchenIsland />
           </Route>
         </Switch>
         <Footer />
