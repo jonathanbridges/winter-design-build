@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   Route,
-  BrowserRouter as Router,
+  HashRouter,
   Switch
 } from 'react-router-dom';
 
@@ -23,7 +23,7 @@ import AshAndSteelKitchenIsland from './components/portfolio_details/ash_and_ste
 
 function App() {
   return (
-    <Router onUpdate={() => window.scrollTo(0,0)}>
+    <HashRouter basename='/' onUpdate={() => window.scrollTo(0,0)}>
       <ScrollToTop />
       <div className="App">
         <Header />
@@ -66,7 +66,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
