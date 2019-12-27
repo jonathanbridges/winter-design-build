@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c177a37cc3f20b872ac268dc39698f2",
+    "revision": "baecc63618a6902f15576bbeef2a3bf9",
     "url": "/winter-design-build/index.html"
   },
   {
-    "revision": "73397c9e1f2ab06b6b77",
+    "revision": "b6a53144ceaa9d557bdb",
     "url": "/winter-design-build/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/winter-design-build/static/js/2.42e49475.chunk.js.LICENSE"
   },
   {
-    "revision": "73397c9e1f2ab06b6b77",
-    "url": "/winter-design-build/static/js/main.9f65a933.chunk.js"
+    "revision": "b6a53144ceaa9d557bdb",
+    "url": "/winter-design-build/static/js/main.7645793a.chunk.js"
   },
   {
     "revision": "bd4706e67085b2d25729",
