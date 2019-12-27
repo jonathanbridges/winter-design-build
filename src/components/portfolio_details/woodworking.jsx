@@ -1,21 +1,58 @@
 import React from 'react';
+import OwlCarousel from 'react-owl-carousel2';
+
+const options = {
+  items: 1,
+  nav: true,
+  rewind: true,
+  autoplay: true,
+  loop: true,
+  margin: 0,
+  navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+  dots: false,
+  // autoplayHoverPause: true,
+  // autoplaySpeed: 800,
+  responsive: {
+    0: {
+      items: 1,
+      nav: true
+
+    },
+    767: {
+      items: 1,
+      nav: true
+    },
+    992: {
+      items: 1,
+      nav: true
+    },
+  }
+};
 
 export default class Woodworking extends React.Component {
-  
   render() {
     return (
       <div>
-        {/* <div className="section_title">
-          <h3 className="justify-content-center">Woodworking</h3>
-        </div> */}
+        <div className="lastest_project">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-xl-6 col-lg-6">
+                <div className="section_title mb-60">
+                  <h3>Woodworking</h3>
+                  {/* <div className="seperator"></div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* details_slider_area_start */}
         <div className="details_slider_area">
-          <div className="details_active owl-carousel">
+          <OwlCarousel className="details_active owl-carousel" options={options}>
             <div className="single_details details_bg_1"></div>
             <div className="single_details details_bg_1"></div>
             <div className="single_details details_bg_1"></div>
             <div className="single_details details_bg_1"></div>
-          </div>
+          </OwlCarousel>
         </div>
         {/* details_slider_area_end */}
         {/* project_details_start */}
@@ -75,7 +112,7 @@ export default class Woodworking extends React.Component {
                       </div>
                       <div className="single_details_info d-flex justify-content-between align-items-center">
                         <span className="left_info">Website:</span>
-                        <span className="right_info"><a href="#">examplesite.com</a></span>
+                        <span className="right_info"><a href="#site">examplesite.com</a></span>
                       </div>
                     </div>
                   </div>

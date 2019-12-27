@@ -16,6 +16,9 @@ body{
     font-weight:normal;
     font-style:normal
 }
+.App {
+  text-align: center;
+}
 .img{
     max-width:100%;
     -webkit-transition:.3s;
@@ -239,15 +242,15 @@ h3{
     }
 }
 .mb-80{
-    margin-bottom:60px
+    margin-bottom:100px
 }
 @media (max-width: 767px){
     .mb-80{
-        margin-bottom:60px
+        margin-bottom:0;
     }
 }
 .mb-60{
-    margin-bottom:60px
+    margin-bottom:30px;
 }
 @media (max-width: 767px){
     .mb-60{
@@ -645,16 +648,19 @@ h3{
     height:800px;
     background-size:cover;
     background-position:center center;
-    background-repeat:no-repeat
+    background-repeat:no-repeat;
+    margin-bottom: 75px;
 }
 @media (max-width: 767px){
     .slider_area .single_slider{
-        height:500px
+        height:500px;
+        margin-bottom: 50px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .slider_area .single_slider{
-        height:600px
+        height:600px;
+        margin-bottom: 50px;
     }
 }
 @media (min-width: 992px) and (max-width: 1200px){
@@ -704,7 +710,7 @@ h3{
     width:240px
 }
 .about_area{
-    padding-top:50px;
+    padding-top:0;
     padding-bottom:100px
 }
 .about_area.extra_padding{
@@ -914,14 +920,8 @@ h3{
     top:-2px
 }
 .lastest_project{
-    padding-top:50px;
+    padding-top:0;
     padding-bottom:0;
-}
-@media (max-width: 767px){
-    .lastest_project{
-        padding-top:30px;
-        padding-bottom:30px
-    }
 }
 .lastest_project .section_title p{
     font-size:16px;
@@ -1383,7 +1383,7 @@ h3{
     background-image:url(../img/team/team3.png)
 }
 .project_details{
-    padding:200px 0
+    padding:100px 0
 }
 @media (max-width: 767px){
     .project_details{
@@ -1732,17 +1732,7 @@ h3{
     display:block
 }
 .contact-section{
-    padding:50px 0;
-}
-@media (max-width: 991px){
-    .contact-section{
-        padding:70px 0 40px
-    }
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px){
-    .contact-section{
-        padding:80px 0 50px
-    }
+    padding:0;
 }
 .contact-section .btn_2{
     background-color:#191d34;
