@@ -18,7 +18,7 @@ export default class Portfolio extends React.Component {
           <div className="row align-items-center mb-80">
             <div className="col-xl-6 col-md-6">
               <div className="single_project_thumb">
-                <img src={process.env.PUBLIC_URL + 'img/trim_and_mantle/1.jpeg'} alt="Trim and Mantle" />
+                <img src={process.env.PUBLIC_URL + '/img/trim_and_mantle/1.jpeg'} alt="Trim and Mantle" />
               </div>
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
@@ -43,14 +43,14 @@ export default class Portfolio extends React.Component {
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
               <div className="single_project_thumb">
-                <img src={process.env.PUBLIC_URL + 'img/reclaimed_fir_accent_wall/1.jpeg'} alt="Reclaimed Fir Accent Wall" />
+                <img src={process.env.PUBLIC_URL + '/img/reclaimed_fir_accent_wall/1.jpeg'} alt="Reclaimed Fir Accent Wall" />
               </div>
             </div>
           </div>
           <div className="row align-items-center mb-80">
             <div className="col-xl-6 col-md-6">
               <div className="single_project_thumb">
-                <img src={process.env.PUBLIC_URL + 'img/wedding_arbor/arbor_portrait.jpg'} alt="Wedding Arbor" />
+                <img src={process.env.PUBLIC_URL + '/img/wedding_arbor/arbor_portrait.jpg'} alt="Wedding Arbor" />
               </div>
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
@@ -75,14 +75,14 @@ export default class Portfolio extends React.Component {
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
               <div className="single_project_thumb">
-                <img src={process.env.PUBLIC_URL + 'img/built_in_closet/1.jpeg'} alt="Built-in Closet" />
+                <img src={process.env.PUBLIC_URL + '/img/built_in_closet/1.jpeg'} alt="Built-in Closet" />
               </div>
             </div>
           </div>
           <div className="row align-items-center mb-80">
             <div className="col-xl-6 col-md-6">
               <div className="single_project_thumb">
-                <img src={process.env.PUBLIC_URL + 'img/bath_vanity_and_tile/1.jpeg'} alt="Bath Vanity and Tile" />
+                <img src={process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/1.jpeg'} alt="Bath Vanity and Tile" />
               </div>
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
@@ -107,14 +107,14 @@ export default class Portfolio extends React.Component {
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
               <div className="single_project_thumb">
-                <img src={process.env.PUBLIC_URL + 'img/wainscotting_and_floor/1.jpeg'} alt="Wainscotting and Floor" />
+                <img src={process.env.PUBLIC_URL + '/img/wainscotting_and_floor/1.jpeg'} alt="Wainscotting and Floor" />
               </div>
             </div>
           </div>
           <div className="row align-items-center mb-80">
             <div className="col-xl-6 col-md-6">
               <div className="single_project_thumb">
-                <img src={process.env.PUBLIC_URL + 'img/ash_and_steel_kitchen_island/1.jpg'} alt="Ash and Steel Kitchen Island" />
+                <img src={process.env.PUBLIC_URL + '/img/ash_and_steel_kitchen_island/1.jpg'} alt="Ash and Steel Kitchen Island" />
               </div>
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
