@@ -21,7 +21,7 @@ export default class Header extends React.Component {
                     <nav>
                       <ul id="navigation">
                         <li>
-                          <Link to="/" className="active">Home</Link>
+                          <Link to="/">Home</Link>
                         </li>
                         <li>
                           <Link to="/portfolio">Portfolio <i className="ti-angle-down" /></Link>

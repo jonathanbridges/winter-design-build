@@ -310,6 +310,11 @@ h3{
 .boxed-btn2:visited{
     color:white;
 }
+@media (max-width: 768px) {
+    .section_title {
+        margin-bottom:30px
+    }
+}
 .section_title .sub_heading{
     color:#c9c9c9;
     display:block;
@@ -554,7 +559,7 @@ h3{
 }
 .header-area .main-header-area .main-menu ul li .submenu{
     position:absolute;
-    left:-7px;
+    left:7px;
     top:140%;
     background:#fff;
     width:200px;
@@ -567,6 +572,11 @@ h3{
     -moz-transition:.6s;
     -o-transition:.6s;
     transition:.6s;
+}
+@media (max-width: 1500px) {
+    .header-area .main-header-area .main-menu ul li .submenu{
+        left: -7px;
+    }
 }
 .header-area .main-header-area .main-menu ul li .submenu li{
     display:block;
@@ -590,8 +600,13 @@ h3{
     opacity:1;
     visibility:visible;
     top:66px;
-    left:-7px;
+    left:7px;
     z-index: 5;
+}
+@media (max-width: 1500px) {
+    .header-area .main-header-area .main-menu ul li:hover>.submenu{
+        left: -7px;
+    }
 }
 .header-area .main-header-area .main-menu ul li:hover>a::before{
     opacity:1;
@@ -1824,6 +1839,11 @@ h3{
 }
 .form-contact .form-group{
     margin-bottom:30px
+}
+@media (max-width: 767px) {
+    .form-contact .form-group{
+        margin-bottom:15px
+    }
 }
 .form-contact .form-control{
     border:1px solid #e5e6e9;
