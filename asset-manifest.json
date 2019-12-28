@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/winter-design-build/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/winter-design-build/static/js/main.7645793a.chunk.js",
-    "main.js.map": "/winter-design-build/static/js/main.7645793a.chunk.js.map",
+    "main.js": "/winter-design-build/static/js/main.8b978759.chunk.js",
+    "main.js.map": "/winter-design-build/static/js/main.8b978759.chunk.js.map",
     "runtime-main.js": "/winter-design-build/static/js/runtime-main.3a40695c.js",
     "runtime-main.js.map": "/winter-design-build/static/js/runtime-main.3a40695c.js.map",
-    "static/js/2.42e49475.chunk.js": "/winter-design-build/static/js/2.42e49475.chunk.js",
-    "static/js/2.42e49475.chunk.js.map": "/winter-design-build/static/js/2.42e49475.chunk.js.map",
+    "static/js/2.edf302ca.chunk.js": "/winter-design-build/static/js/2.edf302ca.chunk.js",
+    "static/js/2.edf302ca.chunk.js.map": "/winter-design-build/static/js/2.edf302ca.chunk.js.map",
     "index.html": "/winter-design-build/index.html",
-    "precache-manifest.17301e8086a05c055cb37ccb21dba028.js": "/winter-design-build/precache-manifest.17301e8086a05c055cb37ccb21dba028.js",
+    "precache-manifest.59159b36ba78bd7c3e8b5f9aee0b2e44.js": "/winter-design-build/precache-manifest.59159b36ba78bd7c3e8b5f9aee0b2e44.js",
     "service-worker.js": "/winter-design-build/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/winter-design-build/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.42e49475.chunk.js.LICENSE": "/winter-design-build/static/js/2.42e49475.chunk.js.LICENSE"
+    "static/js/2.edf302ca.chunk.js.LICENSE": "/winter-design-build/static/js/2.edf302ca.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.3a40695c.js",
-    "static/js/2.42e49475.chunk.js",
+    "static/js/2.edf302ca.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.7645793a.chunk.js"
+    "static/js/main.8b978759.chunk.js"
   ]
 }
