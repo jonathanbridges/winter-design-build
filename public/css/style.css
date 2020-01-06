@@ -657,39 +657,51 @@ h3{
     padding:18px
 }
 .hero_bg_1{
-    background-image:url(../img/wedding_arbor/arbor_landscape.jpg)
+    background-image:url(../img/wedding_arbor/arbor_landscape.jpg);
 }
 .hero_bg_2{
-    background-image:url(../img/built_in_closet/1.jpeg)
+    background-image:url(../img/built_in_closet/1.jpeg);
 }
 .hero_bg_3{
-    background-image:url(../img/reclaimed_fir_accent_wall/2.jpeg)
+    background-image:url(../img/reclaimed_fir_accent_wall/2.jpeg);
 }
 .slider_bg_1{
-    background-image:url(../img/wedding_arbor/arbor_landscape.jpg)
+    background-image:url(../img/wedding_arbor/arbor_landscape.jpg);
 }
+/* owl carousel height */
 .slider_area .single_slider{
-    height:800px;
+    height:85vh;
     background-size:cover;
     background-position:center center;
     background-repeat:no-repeat;
     margin-bottom: 75px;
 }
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: inherit;
+    max-height: 15vh;
+}
+.sticky-header {
+    max-height: 15vh;
+}
+
 @media (max-width: 767px){
     .slider_area .single_slider{
-        height:500px;
+        height:91vh;
         margin-bottom: 50px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .slider_area .single_slider{
-        height:600px;
+        /* height:600px; */
         margin-bottom: 50px;
     }
 }
 @media (min-width: 992px) and (max-width: 1200px){
     .slider_area .single_slider{
-        height:700px
+        /* height:700px */
     }
 }
 .slider_area .single_slider .slider_text h3{

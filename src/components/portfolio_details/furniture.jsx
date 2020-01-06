@@ -8,9 +8,9 @@ const images = [
   process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/4.jpeg',
   process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/5.jpg',
   process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/6_after.jpeg',
-  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/6_before.jpeg',
+  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/6_before.jpg',
   process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/7_after.jpeg',
-  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/7_before.jpeg'
+  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/7_before.jpg'
 ];
 
 const captions = [

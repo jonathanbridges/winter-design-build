@@ -12,6 +12,7 @@ const options = {
   dots: false,
   autoplayHoverPause: true,
   smartSpeed: 800,
+  // autoHeight: true,
   responsive: {
     0: {
       items: 1,
