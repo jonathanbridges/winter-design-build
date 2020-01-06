@@ -2,7 +2,8 @@ import React from 'react';
 import {
   Route,
   HashRouter,
-  Switch
+  Switch,
+  Redirect
 } from 'react-router-dom';
 
 import Header from './components/header';
@@ -62,6 +63,7 @@ function App() {
           <Route path="/ash-and-steel-kitchen-island">
             <AshAndSteelKitchenIsland />
           </Route> */}
+          <Redirect from="*" to='/' />
         </Switch>
         <Footer />
       </div>
