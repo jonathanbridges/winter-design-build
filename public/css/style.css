@@ -1575,7 +1575,6 @@ h3{
 /* Trim Page */
 .trim_bg_1{
     background-image:url(../img/trim_and_mantle/1.jpeg);
-
 }
 .trim_bg_2{
     background-image:url(../img/trim_and_mantle/2.jpeg);
@@ -4034,3 +4033,6 @@ h1,h2,h3,h4,h5,h6{
     font-size:12px
 }
  
+.port-img {
+    cursor: pointer;
+}

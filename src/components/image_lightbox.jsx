@@ -14,16 +14,30 @@ export default class ImageLightbox extends Component {
 
   render() {
     const { photoIndex, isOpen } = this.state;
-    const { images, imgUrl } = this.props;
+    const { images, imgUrl, isButton } = this.props;
 
-    return (
-      <div>
+    let visualization;
+    if (isButton) {
+      visualization = (
+        <button onClick={() => this.setState(
+          prevState => ({
+            isOpen: !prevState.isOpen
+          })
+        )} className="boxed-btn">View More</button>
+      )
+    } else {
+      visualization = (
         <img src={imgUrl} alt="cool" onClick={() => this.setState(
           prevState => ({
             isOpen: !prevState.isOpen
           })
-        )}/>
-  
+        )} className="port-img"/>
+      )
+    }
+
+    return (
+      <div>
+        {visualization}
         {isOpen && (
           <Lightbox
             mainSrc={images[photoIndex]}

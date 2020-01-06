@@ -11,14 +11,6 @@ const images = [
 ];
 
 export default class Portfolio extends Component {
-  // constructor(props) {
-  //   super(props);
-
-  //   this.state = {
-  //     photoIndex: 0,
-  //     isOpen: false,
-  //   };
-  // }
 
   render() {
 
@@ -40,16 +32,21 @@ export default class Portfolio extends Component {
                 <ImageLightbox
                   images={images}
                   imgUrl={process.env.PUBLIC_URL + '/img/trim_and_mantle/1.jpeg'}
+                  isButton={false}
                 />
               </div>
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
               <div className="section_title">
-                <span className="sub_heading2">Trim and Mantle</span>
-                <h4>Woodworking</h4>
+                <span className="sub_heading2">Cabinets and Built-Ins</span>
+                <h4>Cabinets and Built-Ins</h4>
                 <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua
             quis ipsum suspendisse.</p>
-                <Link to="/woodworking" className="boxed-btn">View More</Link>
+                <ImageLightbox
+                  images={images}
+                  imgUrl={null}
+                  isButton={true}
+                />
               </div>
             </div>
           </div>

@@ -30,7 +30,6 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Slider />
-            <Portfolio />
             <Contact />
           </Route>
           <Route path="/about">
