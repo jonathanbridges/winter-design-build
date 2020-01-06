@@ -13,13 +13,13 @@ import Contact from './components/contact';
 import Footer from './components/footer';
 import ScrollToTop from './components/scrolltotop';
 
-import Woodworking from './components/portfolio_details/woodworking';
-import Cabinetry from './components/portfolio_details/cabinetry';
-import TrimCabinetry from './components/portfolio_details/trim_cabinetry';
-import Renovation from './components/portfolio_details/renovation';
-import Design from './components/portfolio_details/design';
-import Art from './components/portfolio_details/art';
-import AshAndSteelKitchenIsland from './components/portfolio_details/ash_and_steel_kitchen_island';
+// import Woodworking from './components/portfolio_details/woodworking';
+// import Cabinetry from './components/portfolio_details/cabinetry';
+// import TrimCabinetry from './components/portfolio_details/trim_cabinetry';
+// import Renovation from './components/portfolio_details/renovation';
+// import Design from './components/portfolio_details/design';
+// import Art from './components/portfolio_details/art';
+// import AshAndSteelKitchenIsland from './components/portfolio_details/ash_and_steel_kitchen_island';
 
 function App() {
   return (
@@ -41,7 +41,7 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/woodworking">
+          {/* <Route path="/woodworking">
             <Woodworking />
           </Route>
           <Route path="/cabinetry">
@@ -61,7 +61,7 @@ function App() {
           </Route>
           <Route path="/ash-and-steel-kitchen-island">
             <AshAndSteelKitchenIsland />
-          </Route>
+          </Route> */}
         </Switch>
         <Footer />
       </div>

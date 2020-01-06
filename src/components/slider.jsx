@@ -51,7 +51,7 @@ export default class Slider extends React.Component {
               </div>
             </div>
           </div>
-          <div className="single_slider overlay2 d-flex align-items-center justify-content-center hero_bg_1">
+          <div className="single_slider overlay2 d-flex align-items-center justify-content-center hero_bg_2">
             <div className="container">
               <div className="row">
                 <div className="col-xl-12">
@@ -64,7 +64,7 @@ export default class Slider extends React.Component {
               </div>
             </div>
           </div>
-          <div className="single_slider overlay2 d-flex align-items-center justify-content-center hero_bg_1">
+          <div className="single_slider overlay2 d-flex align-items-center justify-content-center hero_bg_3">
             <div className="container">
               <div className="row">
                 <div className="col-xl-12">

@@ -24,8 +24,9 @@ export default class Header extends React.Component {
                           <Link to="/">Home</Link>
                         </li>
                         <li>
-                          <Link to="/portfolio">Portfolio <i className="ti-angle-down" /></Link>
-                          <ul className="submenu">
+                          <Link to="/portfolio">Portfolio</Link>
+                          {/* <Link to="/portfolio">Portfolio <i className="ti-angle-down" /></Link> */}
+                          {/* <ul className="submenu">
                             <li>
                               <Link to="/woodworking">Woodworking</Link>
                             </li>
@@ -47,7 +48,7 @@ export default class Header extends React.Component {
                             <li>
                               <Link to="/ash-and-steel-kitchen-island">Ash and Steel Kitchen Island</Link>
                             </li>                                                                                                             
-                          </ul>
+                          </ul> */}
                         </li>
                         <li>
                           <Link to="/about">About</Link>

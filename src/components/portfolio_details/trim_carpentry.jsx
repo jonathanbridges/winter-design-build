@@ -2,24 +2,21 @@ import React from 'react';
 import ImageLightbox from '../image_lightbox';
 
 const images = [
-  process.env.PUBLIC_URL + '/img/built_in_closet/1.jpeg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/2.jpeg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/3.jpeg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/4.jpeg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/5.jpg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/6.jpg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/7.jpg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/8.jpg'
+  process.env.PUBLIC_URL + '/img/trim_and_mantle/1.jpeg',
+  process.env.PUBLIC_URL + '/img/trim_and_mantle/2.jpeg',
+  process.env.PUBLIC_URL + '/img/trim_and_mantle/3.jpeg',
+  process.env.PUBLIC_URL + '/img/trim_and_mantle/4.jpeg',
+  process.env.PUBLIC_URL + '/img/trim_and_mantle/5.jpg'
 ];
 
-export default class Woodworking extends React.Component {
+export default class TrimCarpentry extends React.Component {
   render() {
     return (
       <div className="row align-items-center mb-80">
         <div className="col-xl-6 col-md-6">
           <div className="section_title">
-            <span className="sub_heading2">Woodworking</span>
-            <h4>Woodworking</h4>
+            <span className="sub_heading2">Trim Carpentry</span>
+            <h4>Trim Carpentry</h4>
             <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua
             quis ipsum suspendisse.</p>
             <ImageLightbox

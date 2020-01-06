@@ -41,21 +41,21 @@ export default class Footer extends React.Component {
                 <div className="row justify-content-center">
                   <div className="col-xl-8 col-12 col-md-12">
                     <div className="row">
-                      <div className="col-xl-4 col-12 col-md-4">
+                      <div className="col-xl-4 col-12 col-md-12">
                         <div className="footer_widget">
                           <h3 className="footer_heading">
                             Navigation
                           </h3>
                           <ul className="quick_links">
                             <li><Link to="/">Home</Link></li>
-                            <li><Link to="/about">About</Link></li>
                             <li><Link to="/portfolio">Portfolio</Link></li>
+                            <li><Link to="/about">About</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                           </ul>
                         </div>
                       </div>
                       <div className="col-xl-4 col-12 col-md-4">
-                        <div className="footer_widget">
+                        {/* <div className="footer_widget">
                           <h3 className="footer_heading">
                             Links
                           </h3>
@@ -64,12 +64,12 @@ export default class Footer extends React.Component {
                             <li><a href="#2">MassArt</a></li>
                             <li><a href="#3">Other Link</a></li>
                           </ul>
-                        </div>
+                        </div> */}
                       </div>
-                      <div className="col-xl-4 col-12 col-md-4 ">
+                      <div className="col-xl-4 col-12 col-md-12">
                         <div className="footer_widget">
                           <h3 className="footer_heading">
-                            Speak Now
+                            Get In Touch
                           </h3>
                           <ul className="quick_links">
                             <li><a href="tel:1-802-371-9247">(802) 371-9247</a></li>
@@ -86,7 +86,7 @@ export default class Footer extends React.Component {
         </div>
         <div className="footer_copy_right">
           <p>{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-            Copyright © 2020 All rights reserved | This template is made with using <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a>
+            Copyright © 2020 All rights reserved | This website is made using <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a>
             {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</p>
         </div>
       </footer>
