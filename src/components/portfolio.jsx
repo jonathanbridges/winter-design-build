@@ -1,8 +1,27 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import ImageLightbox from './image_lightbox';
 
-export default class Portfolio extends React.Component {
+const images = [
+  process.env.PUBLIC_URL + '/img/trim_and_mantle/1.jpeg',
+  process.env.PUBLIC_URL + '/img/trim_and_mantle/2.jpeg',
+  process.env.PUBLIC_URL + '/img/trim_and_mantle/3.jpeg',
+  process.env.PUBLIC_URL + '/img/trim_and_mantle/4.jpeg',
+  process.env.PUBLIC_URL + '/img/trim_and_mantle/5.jpeg'
+];
+
+export default class Portfolio extends Component {
+  // constructor(props) {
+  //   super(props);
+
+  //   this.state = {
+  //     photoIndex: 0,
+  //     isOpen: false,
+  //   };
+  // }
+
   render() {
+
     return (
       <div className="lastest_project">
         <div className="container">
@@ -18,7 +37,10 @@ export default class Portfolio extends React.Component {
           <div className="row align-items-center mb-80">
             <div className="col-xl-6 col-md-6">
               <div className="single_project_thumb">
-                <img src={process.env.PUBLIC_URL + '/img/trim_and_mantle/1.jpeg'} alt="Trim and Mantle" />
+                <ImageLightbox
+                  images={images}
+                  imgUrl={process.env.PUBLIC_URL + '/img/trim_and_mantle/1.jpeg'}
+                />
               </div>
             </div>
             <div className="col-xl-5 offset-xl-1 col-md-6">
