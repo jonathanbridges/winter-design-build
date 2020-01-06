@@ -11,7 +11,7 @@ const options = {
   nav: true,
   dots: false,
   autoplayHoverPause: true,
-  autoplaySpeed: 800,
+  smartSpeed: 800,
   responsive: {
     0: {
       items: 1,

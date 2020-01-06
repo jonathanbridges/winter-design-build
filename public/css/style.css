@@ -1905,7 +1905,7 @@ h3{
     display:block
 }
 .contact-section{
-    padding:0;
+    padding:0 0 70px 0;
 }
 .contact-section .btn_2{
     background-color:#191d34;
@@ -4043,3 +4043,35 @@ h1,h2,h3,h4,h5,h6{
 .port-img {
     cursor: pointer;
 }
+
+.media-section {
+    padding-top: 18px;
+}
+
+@media (max-width: 767px) {
+    .invert-port-parent {
+        display: flex;
+    }
+    .invert-port-child {
+        order: 1;
+    }
+    .lastest_project {
+        padding-bottom: 45px;
+    }
+    .contact-section {
+        padding-bottom: 30px;
+    }
+    .contact-submit {
+        margin: 10px 0 30px;
+    }
+    .media-section {
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .contact-section {
+        padding-bottom: 50px;
+    }
+}
+

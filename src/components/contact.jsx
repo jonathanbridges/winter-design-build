@@ -82,11 +82,11 @@ export default class Contact extends React.Component {
                   </p>
                 )}
                 <div className="form-group mt-3">
-                  <button type="submit" className="button boxed-btn" disabled={this.state.submitting}>Send</button>
+                  <button type="submit" className="button boxed-btn contact-submit" disabled={this.state.submitting}>Send</button>
                 </div>
               </form>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 media-section">
               <div className="media contact-info">
                 <span className="contact-info__icon"><i className="ti-home" /></span>
                 <div className="media-body">

@@ -15,8 +15,8 @@ const images = [
 export default class Woodworking extends React.Component {
   render() {
     return (
-      <div className="row align-items-center mb-80">
-        <div className="col-xl-6 col-md-6">
+      <div className="row align-items-center mb-80 invert-port-parent">
+        <div className="col-xl-6 col-md-6 invert-port-child">
           <div className="section_title">
             <span className="sub_heading2">Woodworking</span>
             <h4>Woodworking</h4>
