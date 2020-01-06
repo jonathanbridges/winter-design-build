@@ -10,6 +10,15 @@ const images = [
   process.env.PUBLIC_URL + '/img/ash_and_steel_kitchen_island/6.png',
 ];
 
+const captions = [
+  'image 1 caption',
+  'image 2 caption',
+  'image 3 caption',
+  'image 4 caption',
+  'image 5 caption',
+  'image 6 caption',
+]
+
 export default class CabinetsAndBuiltIns extends React.Component {
   render() {
     return (
@@ -18,6 +27,7 @@ export default class CabinetsAndBuiltIns extends React.Component {
           <div className="single_project_thumb">
             <ImageLightbox
               images={images}
+              captions={captions}
               imgUrl={images[0]}
               isButton={false}
             />
@@ -31,6 +41,7 @@ export default class CabinetsAndBuiltIns extends React.Component {
             quis ipsum suspendisse.</p>
             <ImageLightbox
               images={images}
+              captions={captions}
               imgUrl={null}
               isButton={true}
             />

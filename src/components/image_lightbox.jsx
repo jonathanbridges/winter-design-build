@@ -14,7 +14,7 @@ export default class ImageLightbox extends Component {
 
   render() {
     const { photoIndex, isOpen } = this.state;
-    const { images, imgUrl, isButton } = this.props;
+    const { images, captions, imgUrl, isButton } = this.props;
 
     let visualization;
     if (isButton) {
@@ -54,6 +54,7 @@ export default class ImageLightbox extends Component {
                 photoIndex: (photoIndex + 1) % images.length,
               })
             }
+            imageCaption={captions[this.state.photoIndex]}
           />
         )}
       </div>

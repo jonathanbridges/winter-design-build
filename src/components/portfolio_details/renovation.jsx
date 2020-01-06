@@ -15,6 +15,20 @@ const images = [
   process.env.PUBLIC_URL + '/img/wainscotting_and_floor/11.png',
 ];
 
+const captions = [
+  'image 1 caption',
+  'image 2 caption',
+  'image 3 caption',
+  'image 4 caption',
+  'image 5 caption',
+  'image 6 caption',
+  'image 7 caption',
+  'image 8 caption',
+  'image 9 caption',
+  'image 10 caption',
+  'image 11 caption',
+]
+
 export default class Renovation extends React.Component {
   render() {
     return (
@@ -23,6 +37,7 @@ export default class Renovation extends React.Component {
           <div className="single_project_thumb">
             <ImageLightbox
               images={images}
+              captions={captions}
               imgUrl={images[0]}
               isButton={false}
             />
@@ -36,6 +51,7 @@ export default class Renovation extends React.Component {
             quis ipsum suspendisse.</p>
             <ImageLightbox
               images={images}
+              captions={captions}
               imgUrl={null}
               isButton={true}
             />

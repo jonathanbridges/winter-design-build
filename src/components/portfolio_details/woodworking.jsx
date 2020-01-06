@@ -12,6 +12,17 @@ const images = [
   process.env.PUBLIC_URL + '/img/built_in_closet/8.jpg'
 ];
 
+const captions = [
+  'image 1 caption',
+  'image 2 caption',
+  'image 3 caption',
+  'image 4 caption',
+  'image 5 caption',
+  'image 6 caption',
+  'image 7 caption',
+  'image 8 caption',
+]
+
 export default class Woodworking extends React.Component {
   render() {
     return (
@@ -24,6 +35,7 @@ export default class Woodworking extends React.Component {
             quis ipsum suspendisse.</p>
             <ImageLightbox
               images={images}
+              captions={captions}
               imgUrl={null}
               isButton={true}
             />
@@ -33,6 +45,7 @@ export default class Woodworking extends React.Component {
           <div className="single_project_thumb">
             <ImageLightbox
               images={images}
+              captions={captions}
               imgUrl={images[0]}
               isButton={false}
             />

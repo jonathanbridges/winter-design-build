@@ -13,6 +13,18 @@ const images = [
   process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/7_before.jpeg'
 ];
 
+const captions = [
+  'image 1 caption',
+  'image 2 caption',
+  'image 3 caption',
+  'image 4 caption',
+  'image 5 caption',
+  'image 6 caption',
+  'image 7 caption',
+  'image 8 caption',
+  'image 9 caption',
+]
+
 export default class Furniture extends React.Component {
   render() {
     return (
@@ -21,6 +33,7 @@ export default class Furniture extends React.Component {
           <div className="single_project_thumb">
             <ImageLightbox
               images={images}
+              captions={captions}
               imgUrl={images[0]}
               isButton={false}
             />
@@ -34,6 +47,7 @@ export default class Furniture extends React.Component {
             quis ipsum suspendisse.</p>
             <ImageLightbox
               images={images}
+              captions={captions}
               imgUrl={null}
               isButton={true}
             />
