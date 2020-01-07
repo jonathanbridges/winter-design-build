@@ -52,9 +52,9 @@ export default class ImageLightbox extends Component {
             onMoveNextRequest={() =>
               this.setState({
                 photoIndex: (photoIndex + 1) % images.length,
-              })
+              })  
             }
-            imageCaption={captions[this.state.photoIndex]}
+            imageCaption={captions[photoIndex]}
           />
         )}
       </div>

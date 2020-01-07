@@ -669,12 +669,16 @@ h3{
     background-image:url(../img/wedding_arbor/arbor_landscape.jpg);
 }
 /* owl carousel height */
-.slider_area .single_slider{
+.slider_area .single_slider {
     height:85vh;
     background-size:cover;
     background-position:center center;
     background-repeat:no-repeat;
     margin-bottom: 75px;
+}
+.owl-stage-outer {
+    height: 85vh;
+    margin-bottom: 50px;
 }
 header {
     display: flex;
@@ -691,6 +695,9 @@ header {
     .slider_area .single_slider{
         height:91vh;
         margin-bottom: 50px;
+    }
+    .owl-stage-outer {
+        height:91vh;
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
