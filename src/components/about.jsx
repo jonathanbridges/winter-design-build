@@ -9,7 +9,7 @@ export default class About extends React.Component {
           <div className="row align-items-center">
             <div className="col-xl-6 col-md-6">
               <div className="about_thumb">
-                <img src="img/about/1.png" alt="" />
+                <img src="img/about/about.jpg" alt="Nicholas Winter" />
                 {/* <div className="exprience">
                   <h1>25</h1>
                   <span>Years of Experience</span>

@@ -35,7 +35,7 @@ export default class Footer extends React.Component {
                     <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                   </div>
                   <div className="footer_btn">
-                    <Link to="/contact" className="boxed-btn2">Contact Us</Link>
+                    <Link to="/contact" className="boxed-btn2">Contact Me</Link>
                   </div>
                 </div>
                 <div className="row justify-content-center">
