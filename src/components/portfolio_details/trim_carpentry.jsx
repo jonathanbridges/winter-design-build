@@ -2,19 +2,28 @@ import React from 'react';
 import ImageLightbox from '../image_lightbox';
 
 const images = [
-  process.env.PUBLIC_URL + '/img/trim_and_mantle/1.jpeg',
-  process.env.PUBLIC_URL + '/img/trim_and_mantle/2.jpeg',
-  process.env.PUBLIC_URL + '/img/trim_and_mantle/3.jpeg',
-  process.env.PUBLIC_URL + '/img/trim_and_mantle/4.jpeg',
-  process.env.PUBLIC_URL + '/img/trim_and_mantle/5.jpg'
+  process.env.PUBLIC_URL + '/img/trim_carpentry/1.jpg',
+  process.env.PUBLIC_URL + '/img/trim_carpentry/2.jpg',
+  process.env.PUBLIC_URL + '/img/trim_carpentry/3.jpg',
+  process.env.PUBLIC_URL + '/img/trim_carpentry/4.jpg',
+  process.env.PUBLIC_URL + '/img/trim_carpentry/5.jpg',
+  process.env.PUBLIC_URL + '/img/trim_carpentry/6.jpg',
+  process.env.PUBLIC_URL + '/img/trim_carpentry/7.jpg',
+  process.env.PUBLIC_URL + '/img/trim_carpentry/8.jpeg',
+  process.env.PUBLIC_URL + '/img/trim_carpentry/9.jpeg',
 ];
 
 const captions = [
-  'image 1 caption',
-  'image 2 caption',
-  'image 3 caption',
-  'image 4 caption',
-  'image 5 caption',
+  'Wainscoting and Maple Hardwood Floor',
+  'Wainscoting detail',
+  'Window Trim detail',
+  '',
+  'Floor retrofit to cabinets', 
+  '',
+  'Craftsman Style Cherry Mantle',
+  '',
+  'White Oak Railing',
+  ''
 ]
 
 export default class TrimCarpentry extends React.Component {

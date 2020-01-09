@@ -2,31 +2,27 @@ import React from 'react';
 import ImageLightbox from '../image_lightbox';
 
 const images = [
-  process.env.PUBLIC_URL + '/img/wainscotting_and_floor/1.jpeg',
-  process.env.PUBLIC_URL + '/img/wainscotting_and_floor/2.jpeg',
-  process.env.PUBLIC_URL + '/img/wainscotting_and_floor/3.jpg',
-  process.env.PUBLIC_URL + '/img/wainscotting_and_floor/4.jpg',
-  process.env.PUBLIC_URL + '/img/wainscotting_and_floor/5.jpg',
-  process.env.PUBLIC_URL + '/img/wainscotting_and_floor/6.jpg',
-  process.env.PUBLIC_URL + '/img/wainscotting_and_floor/7.jpg',
-  process.env.PUBLIC_URL + '/img/wainscotting_and_floor/8.jpg',
-  process.env.PUBLIC_URL + '/img/wainscotting_and_floor/9.jpg',
-  process.env.PUBLIC_URL + '/img/wainscotting_and_floor/10.jpg',
-  process.env.PUBLIC_URL + '/img/wainscotting_and_floor/11.png',
+  process.env.PUBLIC_URL + '/img/renovations/1_after.jpg',
+  process.env.PUBLIC_URL + '/img/renovations/2_before.jpg',
+  process.env.PUBLIC_URL + '/img/renovations/3_before.jpg',
+  process.env.PUBLIC_URL + '/img/renovations/4_after.jpeg',
+  process.env.PUBLIC_URL + '/img/renovations/5.jpeg',
+  process.env.PUBLIC_URL + '/img/renovations/6.jpg',
+  process.env.PUBLIC_URL + '/img/renovations/7.jpeg',
+  process.env.PUBLIC_URL + '/img/renovations/8.jpeg',
+  process.env.PUBLIC_URL + '/img/renovations/9.jpeg',
 ];
 
 const captions = [
-  'image 1 caption',
-  'image 2 caption',
-  'image 3 caption',
-  'image 4 caption',
-  'image 5 caption',
-  'image 6 caption',
-  'image 7 caption',
-  'image 8 caption',
-  'image 9 caption',
-  'image 10 caption',
-  'image 11 caption',
+  'Bath remodel - Custom built Craftsman Barn Door',
+  'Bath remodel - Door Before',
+  'Bath Remodel – Sink Before',
+  'Bath Remodel – Sink After',
+  'Handmade floor tile with ‘Ombre’ design',
+  '',
+  'Reclaimed Douglas fir headboard wall',
+  'Hidden Shelves(1 of 2)',
+  'Hidden Shelves(2 of 2)',
 ]
 
 export default class Renovation extends React.Component {

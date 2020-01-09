@@ -2,25 +2,19 @@ import React from 'react';
 import ImageLightbox from '../image_lightbox';
 
 const images = [
-  process.env.PUBLIC_URL + '/img/built_in_closet/1.jpeg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/2.jpeg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/3.jpeg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/4.jpeg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/5.jpg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/6.jpg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/7.jpg',
-  process.env.PUBLIC_URL + '/img/built_in_closet/8.jpg'
+  process.env.PUBLIC_URL + '/img/woodworking/1.jpg',
+  process.env.PUBLIC_URL + '/img/woodworking/2.jpg',
+  process.env.PUBLIC_URL + '/img/woodworking/3.jpg',
+  process.env.PUBLIC_URL + '/img/woodworking/4.jpg',
+  process.env.PUBLIC_URL + '/img/woodworking/5.jpg',
 ];
 
 const captions = [
-  'image 1 caption',
-  'image 2 caption',
-  'image 3 caption',
-  'image 4 caption',
-  'image 5 caption',
-  'image 6 caption',
-  'image 7 caption',
-  'image 8 caption',
+  'Wedding Arbor - Northern White Cedar',
+  'With the lovely couple!',
+  '',
+  'Spalted Ambrosia Maple and Walnut box',
+  'Box Lid detail',
 ]
 
 export default class Woodworking extends React.Component {

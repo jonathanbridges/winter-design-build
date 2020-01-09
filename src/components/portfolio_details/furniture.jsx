@@ -2,27 +2,23 @@ import React from 'react';
 import ImageLightbox from '../image_lightbox';
 
 const images = [
-  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/1.jpeg',
-  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/2.jpeg',
-  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/3.jpeg',
-  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/4.jpeg',
-  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/5.jpg',
-  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/6_after.jpeg',
-  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/6_before.jpg',
-  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/7_after.jpeg',
-  process.env.PUBLIC_URL + '/img/bath_vanity_and_tile/7_before.jpg'
+  process.env.PUBLIC_URL + '/img/furniture/1.jpg',
+  process.env.PUBLIC_URL + '/img/furniture/2.jpg',
+  process.env.PUBLIC_URL + '/img/furniture/3.jpg',
+  process.env.PUBLIC_URL + '/img/furniture/4.jpeg',
+  process.env.PUBLIC_URL + '/img/furniture/5.jpeg',
+  process.env.PUBLIC_URL + '/img/furniture/6.jpeg',
+  process.env.PUBLIC_URL + '/img/furniture/7.jpg',
 ];
 
 const captions = [
-  'image 1 caption',
-  'image 2 caption',
-  'image 3 caption',
-  'image 4 caption',
-  'image 5 caption',
-  'image 6 caption',
-  'image 7 caption',
-  'image 8 caption',
-  'image 9 caption',
+  'Ash and Steel Kitchen Island',
+  '',
+	'Kitchen Island detail',
+	'Tropical Chair - Various hardwoods',
+	'Tropical Chair - Built at Rancho Mastatal, CR',
+	'Tropical Chair detail',
+	'Various versions of chair - They are propagating!',
 ]
 
 export default class Furniture extends React.Component {
