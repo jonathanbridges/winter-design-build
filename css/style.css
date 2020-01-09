@@ -657,24 +657,28 @@ h3{
     padding:18px
 }
 .hero_bg_1{
-    background-image:url(../img/wedding_arbor/arbor_landscape.jpg);
+    background-image:url(../img/woodworking/4.jpg);
 }
 .hero_bg_2{
-    background-image:url(../img/built_in_closet/1.jpeg);
+    background-image:url(../img/furniture/1.JPG);
 }
 .hero_bg_3{
-    background-image:url(../img/reclaimed_fir_accent_wall/2.jpeg);
+    background-image:url(../img/woodworking/3.jpg);
 }
 .slider_bg_1{
     background-image:url(../img/wedding_arbor/arbor_landscape.jpg);
 }
 /* owl carousel height */
-.slider_area .single_slider{
+.slider_area .single_slider {
     height:85vh;
     background-size:cover;
     background-position:center center;
     background-repeat:no-repeat;
     margin-bottom: 75px;
+}
+.owl-stage-outer {
+    height: 85vh;
+    margin-bottom: 50px;
 }
 header {
     display: flex;
@@ -691,6 +695,9 @@ header {
     .slider_area .single_slider{
         height:91vh;
         margin-bottom: 50px;
+    }
+    .owl-stage-outer {
+        height:91vh;
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -4085,4 +4092,8 @@ h1,h2,h3,h4,h5,h6{
     .contact-section {
         padding-bottom: 50px;
     }
+}
+
+.ril__captionContent {
+    font-family: Roboto, sans-serif;
 }
