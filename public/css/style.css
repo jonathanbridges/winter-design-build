@@ -543,7 +543,13 @@ h3{
 @media (min-width: 1200px) and (max-width: 1500px){
     .header-area .main-header-area .main-menu ul li a{
         padding:35px 8px 35px 8px;
-        font-size:12px
+        font-size:13px;
+    }
+}
+@media (min-width: 1501px) {
+    .header-area .main-header-area .main-menu ul li a{
+        padding:35px 8px 35px 8px;
+        font-size:1rem;
     }
 }
 .header-area .main-header-area .main-menu ul li a i{
@@ -758,7 +764,7 @@ header {
     width:240px
 }
 .about_area{
-    padding-top:0;
+    padding-top:10px;
     padding-bottom:100px
 }
 .about_area.extra_padding{
@@ -785,7 +791,7 @@ header {
 }
 @media (min-width: 768px) and (max-width: 991px){
     .about_area{
-        padding-top:50px;
+        padding-top:0;
         padding-bottom:100px
     }
 }
@@ -793,7 +799,7 @@ header {
     position:relative;
     z-index:2
 }
-.about_area .about_thumb img{
+.about_area .about_thumb img {
     width:100%
 }
 .about_area .about_thumb .exprience{

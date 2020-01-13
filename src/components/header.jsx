@@ -9,14 +9,14 @@ export default class Header extends React.Component {
           <div id="sticky-header" className="main-header-area white-bg">
             <div className="container-fluid p-0">
               <div className="row align-items-center justify-content-between no-gutters">
-                <div className="col-xl-2 col-lg-2">
+                <div className="col-xl-3 col-lg-3">
                   <div className="logo-img">
                     <Link to="/">
                       <img src="img/logo.jpg" alt="logo" className="logo-img" />
                     </Link>
                   </div>
                 </div>
-                <div className="col-xl-7 col-lg-7">
+                <div className="col-xl-6 col-lg-6">
                   <div className="main-menu  d-none d-lg-block">
                     <nav>
                       <ul id="navigation">
