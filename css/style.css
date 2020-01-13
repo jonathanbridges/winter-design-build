@@ -483,7 +483,7 @@ h3{
     top:-31px
 }
 .header-area .main-header-area{
-    padding:0 150px
+    padding:0 50px;
 }
 @media (max-width: 767px){
     .header-area .main-header-area{
@@ -502,12 +502,17 @@ h3{
 }
 @media (max-width: 767px){
     .header-area .main-header-area .logo-img{
-        padding-left:20px
+        margin-left:20px
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .header-area .main-header-area .logo-img{
-        padding-left:20px
+        margin-left:20px
+    }
+}
+@media (max-width: 414px){
+    .header-area .main-header-area .logo-img{
+        margin-left:3%;
     }
 }
 .header-area .main-header-area .main-menu{
@@ -538,7 +543,13 @@ h3{
 @media (min-width: 1200px) and (max-width: 1500px){
     .header-area .main-header-area .main-menu ul li a{
         padding:35px 8px 35px 8px;
-        font-size:12px
+        font-size:13px;
+    }
+}
+@media (min-width: 1501px) {
+    .header-area .main-header-area .main-menu ul li a{
+        padding:35px 8px 35px 8px;
+        font-size:1rem;
     }
 }
 .header-area .main-header-area .main-menu ul li a i{
@@ -657,13 +668,13 @@ h3{
     padding:18px
 }
 .hero_bg_1{
-    background-image:url(../img/woodworking/4.jpg);
+    background-image:url(../img/hero/1.jpg);
 }
 .hero_bg_2{
-    background-image:url(../img/furniture/1.jpg);
+    background-image:url(../img/hero/2.jpg);
 }
 .hero_bg_3{
-    background-image:url(../img/woodworking/3.jpg);
+    background-image:url(../img/hero/3.jpg);
 }
 .slider_bg_1{
     background-image:url(../img/wedding_arbor/arbor_landscape.jpg);
@@ -753,7 +764,7 @@ header {
     width:240px
 }
 .about_area{
-    padding-top:0;
+    padding-top:10px;
     padding-bottom:100px
 }
 .about_area.extra_padding{
@@ -780,7 +791,7 @@ header {
 }
 @media (min-width: 768px) and (max-width: 991px){
     .about_area{
-        padding-top:50px;
+        padding-top:0;
         padding-bottom:100px
     }
 }
@@ -788,7 +799,7 @@ header {
     position:relative;
     z-index:2
 }
-.about_area .about_thumb img{
+.about_area .about_thumb img {
     width:100%
 }
 .about_area .about_thumb .exprience{
@@ -4097,3 +4108,16 @@ h1,h2,h3,h4,h5,h6{
 .ril__captionContent {
     font-family: Roboto, sans-serif;
 }
+
+.logo-img {
+    width: 40px;
+}
+
+@media (min-width: 991px) {
+    .logo-img {
+        width: 80px;
+    }
+}
+
+
+
