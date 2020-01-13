@@ -483,7 +483,7 @@ h3{
     top:-31px
 }
 .header-area .main-header-area{
-    padding:0 150px
+    padding:0 50px;
 }
 @media (max-width: 767px){
     .header-area .main-header-area{
@@ -502,12 +502,17 @@ h3{
 }
 @media (max-width: 767px){
     .header-area .main-header-area .logo-img{
-        padding-left:20px
+        margin-left:20px
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .header-area .main-header-area .logo-img{
-        padding-left:20px
+        margin-left:20px
+    }
+}
+@media (max-width: 414px){
+    .header-area .main-header-area .logo-img{
+        margin-left:3%;
     }
 }
 .header-area .main-header-area .main-menu{
@@ -4097,3 +4102,16 @@ h1,h2,h3,h4,h5,h6{
 .ril__captionContent {
     font-family: Roboto, sans-serif;
 }
+
+.logo-img {
+    width: 40px;
+}
+
+@media (min-width: 991px) {
+    .logo-img {
+        width: 80px;
+    }
+}
+
+
+

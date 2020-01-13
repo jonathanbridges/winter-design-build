@@ -11,9 +11,9 @@ export default class Header extends React.Component {
               <div className="row align-items-center justify-content-between no-gutters">
                 <div className="col-xl-2 col-lg-2">
                   <div className="logo-img">
-                    <a href="index.html">
-                      <img src="img/logo.png" alt="logo" />
-                    </a>
+                    <Link to="/">
+                      <img src="img/logo.jpg" alt="logo" className="logo-img" />
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xl-7 col-lg-7">
