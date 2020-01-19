@@ -23,10 +23,10 @@ export default class Woodworking extends React.Component {
       <div className="row align-items-center mb-80 invert-port-parent">
         <div className="col-xl-6 col-md-6 invert-port-child">
           <div className="section_title">
-            <span className="sub_heading2">Woodworking</span>
+            {/* <span className="sub_heading2">Woodworking</span> */}
             <h4>Woodworking</h4>
-            <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua
-            quis ipsum suspendisse.</p>
+            {/* <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua
+            quis ipsum suspendisse.</p> */}
             <ImageLightbox
               images={images}
               captions={captions}

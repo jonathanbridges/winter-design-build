@@ -10,9 +10,10 @@ export default class Header extends React.Component {
             <div className="container-fluid p-0">
               <div className="row align-items-center justify-content-between no-gutters">
                 <div className="col-xl-3 col-lg-3">
-                  <div className="logo-img">
-                    <Link to="/">
+                  <div>
+                    <Link to="/" className="header-home-container">
                       <img src="img/logo.jpg" alt="logo" className="logo-img" />
+                      <h4>Winter Design Build</h4>
                     </Link>
                   </div>
                 </div>

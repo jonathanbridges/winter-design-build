@@ -37,10 +37,10 @@ export default class Furniture extends React.Component {
         </div>
         <div className="col-xl-5 offset-xl-1 col-md-6">
           <div className="section_title">
-            <span className="sub_heading2">Furniture</span>
+            {/* <span className="sub_heading2">Furniture</span> */}
             <h4>Furniture</h4>
-            <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua
-            quis ipsum suspendisse.</p>
+            {/* <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua
+            quis ipsum suspendisse.</p> */}
             <ImageLightbox
               images={images}
               captions={captions}

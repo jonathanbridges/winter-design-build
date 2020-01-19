@@ -41,10 +41,10 @@ export default class CabinetsAndBuiltIns extends React.Component {
         </div>
         <div className="col-xl-5 offset-xl-1 col-md-6">
           <div className="section_title">
-            <span className="sub_heading2">Cabinets and Built-Ins</span>
+            {/* <span className="sub_heading2">Cabinets and Built-Ins</span> */}
             <h4>Cabinets and Built-Ins</h4>
-            <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua
-            quis ipsum suspendisse.</p>
+            {/* <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua
+            quis ipsum suspendisse.</p> */}
             <ImageLightbox
               images={images}
               captions={captions}

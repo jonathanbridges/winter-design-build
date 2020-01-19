@@ -32,7 +32,7 @@ export default class Footer extends React.Component {
                 <div className="footer_header d-flex justify-content-between align-items-center">
                   <div className="footer_header_left">
                     <h3>Do you have a project you need done?</h3>
-                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    {/* <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p> */}
                   </div>
                   <div className="footer_btn">
                     <Link to="/contact" className="boxed-btn2">Contact Me</Link>
