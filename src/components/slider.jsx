@@ -45,7 +45,7 @@ export default class Slider extends React.Component {
                 <div className="col-xl-12">
                   <div className="slider_text text-center">
                     <h3>Winter Design Build</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor</p>
+                    <p>Carpentry for all Seasons</p>
                     <Link to="/portfolio" className="boxed-btn2">See My Portfolio</Link>
                   </div>
                 </div>
@@ -58,7 +58,7 @@ export default class Slider extends React.Component {
                 <div className="col-xl-12">
                   <div className="slider_text text-center">
                     <h3>Winter Design Build</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor</p>
+                    <p>Carpentry for all Seasons</p>
                     <Link to="/portfolio" className="boxed-btn2">See My Portfolio</Link>
                   </div>
                 </div>
@@ -71,7 +71,7 @@ export default class Slider extends React.Component {
                 <div className="col-xl-12">
                   <div className="slider_text text-center">
                     <h3>Winter Design Build</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor</p>
+                    <p>Carpentry for all Seasons</p>
                     <Link to="/portfolio" className="boxed-btn2">See My Portfolio</Link>
                   </div>
                 </div>

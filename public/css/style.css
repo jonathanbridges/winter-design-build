@@ -874,8 +874,12 @@ header {
     }
 }
 .about_area .about_info .about_list{
-    margin-bottom:1em;
-    margin-top:1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-bottom:1em;
+    margin-top:1em; */
+    width: 50%;
 }
 .about_area .about_info .about_list li{
     font-weight:400;
@@ -4119,8 +4123,16 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .media-section {
+    /* background-image: url('../img/contact/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
     padding-top: 18px;
 }
+
+
+/* .media-section h3, .media-section i, .media-section p {
+    color: white !important;
+} */
 
 @media (max-width: 767px) {
     .invert-port-parent {
@@ -4197,4 +4209,32 @@ h1,h2,h3,h4,h5,h6{
     .about_area .about_info a {
         margin-bottom: 2em;
     }
+}
+
+.poland-img {
+    height: 300px;
+    width: 50%;
+    background-size: cover;
+    background-image: url(../img/about/poland.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+
+.about-link-img-wrapper {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 767px) {
+    .about-link-img-wrapper {
+        flex-direction: column;
+    }
+    .poland-img, .about_list {
+        width: 100% !important;
+    }
+
+    .about_list li:last-child {
+        margin-bottom: 13px !important;
+    }
+
 }
