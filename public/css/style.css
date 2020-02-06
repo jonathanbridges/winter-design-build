@@ -199,12 +199,12 @@ h3{
 .owl-carousel .owl-nav div.owl-next i{
     position:relative;
     right:-2px;
-    top:-3px
+    top:0px
 }
 .owl-carousel .owl-nav div.owl-prev i{
     position:relative;
     right:1px;
-    top:-2px
+    top:0px
 }
 .owl-carousel:hover .owl-nav div{
     opacity:1;
