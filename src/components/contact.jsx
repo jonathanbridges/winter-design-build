@@ -47,6 +47,7 @@ export default class Contact extends React.Component {
           <div className="row">
             <div className="col-12">
               <h2 className="contact-title">Get in Touch</h2>
+              <img className = "contact-image" src="img/contact/contact.jpg" alt="Construction" />
             </div>
             <div className="col-lg-8">
               <form onSubmit={this.handleSubmit} className="form-contact contact_form">
